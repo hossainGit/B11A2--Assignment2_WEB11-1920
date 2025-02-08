@@ -208,7 +208,26 @@ line-height: 28.3px;
 }
 
 
+/* /////////////////////////////////////////////////////////////////// */
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 80px 0px 120px;
+}
 
+.icon i{
+    color: white;
+    font-size: 1.5rem;
+    background: rgb(254, 163, 1);
+    padding: 17px 22.13px 19px 22.5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon i:hover{
+    background: rgb(212, 127, 0);
+}
 
 
 
